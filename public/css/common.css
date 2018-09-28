@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+  border-collapse: collapse;
+  font-family: Helvetica,'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック';
+}
+
+#top {
+  width: 100%;
+  padding: 4% 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center
+}
+
+.content {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  position: static;
+}
+
+.content-1 {
+  margin: 3%;
+  padding: 2%;
+  display: block;
+  position: relative;
+}
+
+.content-2 {
+  display: block;
+  position: relative;
+}
+
+.content-3 {
+  display: block;
+  position: relative;
+}
+
+p {
+  letter-spacing: 1.6px;
+}
+
+input { display: inline; }
+input[type=text] {
+  font-size: 16px;
+  transform: scale(0.8);
+}
+
+/* back-color */
+.b_black { background-color: #333 }
+.b_red { background-color: #dc143c }
+.b_blue { background-color: #4169e1 }
+.b_green { background-color: #2e8b57 }
+.b_gray { background-color: #dcdcdc }
+
+/* font-color */
+.f_white { color: #fff }
+.f_black { color: #333 }
+.f_red { color: #dc143c }
+.f_blue { color: #4169e1 }
+.f_green { color: #2e8b57 }
+
+/* margin */
+.m_10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.m_30 {
+  margin-bottom: 15px;
+}
+
+.point {
+    margin: 30px 0;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.button {
+  display: inline-block;
+  padding: 20px 31px;
+  margin: 3%;
+  font-size: 50px;
+  border-radius: 110px;
+}

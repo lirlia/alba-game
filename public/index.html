@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+    <!-- Firebase App is always required and must be first -->
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+
+    <!-- Add additional services you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-database.js"></script>
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="./js/my-code.js"></script>
+    <title>アルバ会</title>
+    <div id="top" class="f_white b_blue">アルバ会 Apps</div>
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="content-1">
+        <input id="player" placeholder="あなたの名前を入れてください" type="text" name="name" size="30" maxlength="10">
+      </div>
+      <div class="content-2">
+        <p>現在のポイント</p>
+        <div class="m_30"><span class="point">0</span> pt</div>
+      </div>
+      <div class="content-3">
+        <div class="calc">
+          <span id="calc-plus" class="button b_green f_white">＋</span>
+          <span id="calc-minus" class="button b_red f_white">ー</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
